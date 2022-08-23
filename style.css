@@ -1,0 +1,52 @@
+/*
+
+Author: Matt Gauci
+Wonderful World Of Tolken
+
+*/
+
+*{
+    color: darkgray;
+    font-family: fantasy;
+}
+html, body{
+    height: 100%;
+    margin:0%;
+    background-color: lightgrey;
+}
+h1{
+    font-size: 8em;
+    margin: 0;
+    padding: 0.5em;
+    color: grey;
+}
+p {
+    padding: 1em;
+    font-size: 1em;
+
+}
+.panel{
+    width: 75%;
+    height: auto;
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: whitesmoke;
+}
+#bg{
+    background-image: url(gandalf.jpg);
+    height:100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#Character-List{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 2em;
+}
+#image-container{
+    display: none;
+}
